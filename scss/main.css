@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Open Sans;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .logo {
+  margin: 10px 100px;
+}
+
+nav .btn-style-1 {
+  margin: 10px 100px;
+  background: none;
+  border: 1px solid #ff8fd8;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #ff8fd8;
+  cursor: pointer;
+}
+
+.main {
+  text-align: center;
+}
+
+.main .heading {
+  font-family: lato;
+  font-size: 40px;
+  font-weight: 700;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.main .paragraph-1 {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  width: 30%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.main .btn-class-2 {
+  margin: 30px auto;
+  width: 30%;
+  text-align: center;
+}
+
+.main .btn-class-2 .btn-style-2 {
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 50px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.main img {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.main .stat-section {
+  height: 500px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .stat-section .stats {
+  text-align: left;
+}
+
+.main .stat-section .stats img {
+  width: 30px;
+}
+
+.main .stat-section .stats .numbers {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.main .stat-section .stats .subText {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+}
+
+section {
+  height: 500px;
+  margin: 100px auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section img {
+  height: 400px;
+}
+
+section .info {
+  padding: 40px 50px;
+  width: 40%;
+}
+
+section .info .subHeading {
+  font-family: lato;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+section .info .paragraph-2 {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.curve {
+  background-color: #f5faff;
+  margin-top: 0px;
+  position: relative;
+}
+
+.curve::before {
+  background: url("/images/bg-section-top-desktop-1.svg");
+  background-size: cover;
+  bottom: 100%;
+  content: "";
+  height: 150px;
+  position: absolute;
+  width: 100%;
+}
+
+.curve::after {
+  background: url("/images/bg-section-bottom-desktop-1.svg");
+  background-size: cover;
+  top: 100%;
+  content: "";
+  height: 150px;
+  position: absolute;
+  width: 100%;
+}
+
+.btnSection {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btnSection .heading {
+  font-family: lato;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.btnSection button {
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 50px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #00252e;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+.footer::after {
+  background: url("/images/bg-footer-top-desktop.svg");
+  background-size: cover;
+  bottom: 100%;
+  content: "";
+  height: 160px;
+  position: absolute;
+  width: 100%;
+}
+
+.footer .contact {
+  width: 30%;
+}
+
+.footer .logo img {
+  height: 30px;
+}
+
+.footer .paragraph {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+.footer .contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .contactInfo img {
+  height: 20px;
+}
+
+.footer .contactInfo .subText {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  color: #fff;
+}
+
+.footer .form {
+  width: 30%;
+}
+
+.footer .form .subHeading {
+  font-family: lato;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.footer .form .paragraph {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer .form input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.footer .form .submit {
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 50px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=main.css.map */
